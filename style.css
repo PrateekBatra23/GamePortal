@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Josefin Sans";
+    box-sizing:border-box;
+}
+body{
+    background: #000000;
+}
+.Navbar{
+    display: flex;
+    color: aliceblue;
+    font-size: 40px;
+    justify-content: space-between;
+    padding: 4px 10px ;
+    font-family: "Kaisei Opti";
+    height: 50px;
+    
+}
+.mfclogo{
+    height: 40px;
+    width:auto;
+    
+}
+.Navbar button {
+    margin-top: 5px;
+    
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.banner{
+    position: relative;
+    justify-content: space-between;
+    padding: 0 5%;
+    display: flex;
+}
+.banner::before{
+    content: '';
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+    background: linear-gradient(
+        to right, 
+        rgba(203, 141, 99, 1) 18%, 
+        rgba(181, 125, 88, 1) 40%, 
+        rgba(122, 85, 60, 1) 92%, 
+        rgba(101, 70, 49, 1) 100%
+      );
+      opacity: 0.22;
+      z-index: 1;
+}
+
+.bannertext{
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.Arena{
+    color: rgba(249, 114, 22);
+    margin-top: 80px;
+    font-size: 100px;
+}
+.content{
+    height: 238px;
+    width: 898px;
+    line-height: 30px;
+}
+.fox{
+    height: 430px;
+    width: 400px;
+}
+.lower{
+    width: 100%;
+}
+.lower img{
+    width: 100%;
+    height: 500px;
+}
+/* .Navbar button{
+    margin-right: 10px;
+    
+
+    
+} */
+/* .MFC{
+    padding:40px 35px;
+    text-align:center;
+    padding:0px 0;
+}  */
