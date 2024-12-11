@@ -84,10 +84,70 @@ body{
 }
 .lower{
     width: 100%;
+    background:url(images/Rectangle\ 74.png);
 }
 .lower img{
     width: 100%;
     height: 500px;
+}
+.cards{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    height: 360px;
+    width: 310px;
+    color: aliceblue;
+    
+    
+}
+.cardtext{
+    padding: 1px 5px ;
+
+}
+.innercard{
+    width: 282px;
+    height: 338.48px;
+    background-color: rgba(217, 217, 217, 0.2);
+    font-size: 13px;
+}
+.innercard:hover{
+    background-color: rgba(108, 66, 16, 0.49);
+    height: 360px;
+    width: 310px;
+    font-size: 13.8px;
+    padding: 5px;
+    border:2px dashed white;
+    /* border:2px dashed white; */
+}
+.card:hover{
+    
+    
+}
+.card img{
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+
+    width:a;
+    height: 02%;
+    align-self: center;
+}
+.footer img{
+    width: auto ;
+    height: 20px;
+    margin: ;
+    
+    
+}
+.footer1{
+
+    color: #F26802;
+    text-align: center;
 }
 /* .Navbar button{
     margin-right: 10px;
